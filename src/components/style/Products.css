@@ -1,0 +1,32 @@
+.heading{
+    text-align: center;
+    color: white;
+    margin-top: 60px;
+    margin-bottom: 20px;
+
+}
+
+.container{
+    max-width: 1400px;
+    /* border: 2px solid black; */
+    margin: auto;
+    min-height: 100vh;
+}
+
+.productGrid{
+    display: grid;;
+    grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
+    gap:40px
+}
+
+.cardImg{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.productGrid button{
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px
+}

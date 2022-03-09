@@ -1,0 +1,36 @@
+@import 'antd/dist/antd.css';
+body{
+  background-color: rgb(115, 119, 128);
+  max-height:max-content;
+}
+
+
+.form {
+    text-align: center;
+  }
+  .form-header {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: white;
+    padding: 20px;
+    margin-top:80px;
+    /* max-width: 1200px; */
+}
+
+form{
+  background-color: white;
+  border-radius: 10px;
+  border: 20px solid white;
+  
+}
+
+.form h2{
+  padding-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+
+}
